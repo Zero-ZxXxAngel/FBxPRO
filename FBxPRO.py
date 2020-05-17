@@ -132,9 +132,9 @@ CorrectPassword = "Zero"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername \x1b[1;96m>>>> ")
-    if (username == Username Salah😠):
+    if (username == Username Salah):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword \x1b[1;96m>>>> ")
-        if (password == Password Salah😠):
+        if (password == Password Salah):
             print "login" + username
             loop = 'false'
         else:
@@ -238,7 +238,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
 	if unikers =="":
-		print "\x1b[1;91mIsi Dengan Benar😠"
+		print "\x1b[1;91mIsi Dengan Benar"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -254,7 +254,7 @@ def pilih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\x1b[1;91mIsi Dengan Benar😠"
+		print "\x1b[1;91mIsi Dengan Benar"
 		pilih()
 
 def super():
@@ -279,7 +279,7 @@ def super():
 def pilih_super():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mIsi Dengan Benar!😠"
+		print "\x1b[1;91mIsi Dengan Benar!"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
@@ -326,7 +326,7 @@ def pilih_super():
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mIsi Dengan Benar😠"
+		print "\x1b[1;91mIsi Dengan Benar"
 		pilih_super()
 
 	
