@@ -272,7 +272,7 @@ def super():
 	print "          \x1b[1;33;40m [1] \033[1;33;40m     ID From A Friend"
 	print "          \x1b[1;33;40m [2] \033[1;33;40m     Friend Id Of A Friend"
 	print "          \x1b[1;33;40m [3] \033[1;33;40m     Target ID"
-	print "          \x1b[1;33;40m [4] \033[1;33;40m     ??"
+	print "          \x1b[1;33;40m [4] \033[1;33;40m     Id Of File"
 	print "          \x1b[1;33;40m [0] \033[1;33;40m     Back"
 	pilih_super()
 
