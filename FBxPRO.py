@@ -285,7 +285,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 
-		jalan('\033[1;93m[✺] Orang Sabar DiSayang Zanda \033[1;97m...')
+		jalan('\033[1;93m[✺]Orang Sabar DiSayang Zanda \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -303,7 +303,7 @@ def pilih_super():
 			print"\x1b[1;92m[✺] ID ni lbhi!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"          \033[1;35;40m[✺]  Orang Sabar DiSayang Zanda..."
+		print"          \033[1;35;40m[✺]Orang Sabar DiSayang Zanda..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
