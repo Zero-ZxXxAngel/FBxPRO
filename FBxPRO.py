@@ -456,7 +456,7 @@ def pilih_super():
 	print 42*"\033[1;96m="
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mcheck Accounts \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal berhasil✔/\x1b[1;93mberhasil✔ \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mApki file save hogi \033[1;91m: \033[1;97mout/checkpoint.txt")
+	print("\033[1;96m[+] \033[1;92mFile anda di simpan \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
