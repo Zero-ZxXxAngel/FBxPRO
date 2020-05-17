@@ -125,8 +125,8 @@ print  """
 \033[1;94m------------------------V
 
                                                                                             """
-CorrectUsername = "ZxXx-Angel"
-CorrectPassword = "Zero"
+UsernameSalah = "ZxXx-Angel"
+PasswordSalah = "Zero"
 
 
 loop = 'true'
