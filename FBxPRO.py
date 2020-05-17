@@ -138,7 +138,7 @@ while (loop == 'true'):
             print "Done login" + username
             loop = 'false'
         else:
-            print "password?"
+            print "Don't have id and password"
             os.system('xdg-open https://https://www.instagram.com/zero_xvip')
     else:
         print "Wrong Username"
