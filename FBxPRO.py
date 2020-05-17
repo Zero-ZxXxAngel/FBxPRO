@@ -154,7 +154,7 @@ def login():
 		print logo
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;93mLogin Facebook \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
+		id = raw_input('\033[1;96m[+] \x1b[1;93mID/email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
@@ -164,7 +164,7 @@ def login():
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
-		br.form['Email'] = id
+		br.form['email'] = id
 		br.form['Pass'] = pwd
 		br.submit()
 		url = br.geturl()
