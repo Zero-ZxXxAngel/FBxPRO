@@ -132,9 +132,9 @@ CorrectPassword = "Zero"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername \x1b[1;96m>>>> ")
-    if (username == Username Salah):
+    if (username == Username Salah ):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword \x1b[1;96m>>>> ")
-        if (password == Password Salah):
+        if (password == Password Salah ):
             print "login" + username
             loop = 'false'
         else:
