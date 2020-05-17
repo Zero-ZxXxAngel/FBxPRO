@@ -160,7 +160,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mTera internrt ni hy oye"
+			print"\n\033[1;96m[!] \x1b[1;91mError"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
