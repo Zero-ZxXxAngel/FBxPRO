@@ -165,7 +165,7 @@ def login():
 		br._factory.is_html = True
 		br.select_form(nr=0)
 		br.form['email'] = id
-		br.form['Pass'] = pwd
+		br.form['Password'] = pwd
 		br.submit()
 		url = br.geturl()
 		if 'save-device' in url:
