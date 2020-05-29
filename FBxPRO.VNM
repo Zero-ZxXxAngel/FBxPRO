@@ -53,20 +53,19 @@ def jalan(z):
 logo = """
 \033[1;92mZero & ZxXx-Angel
 \033[1;92mFollow @zero_xvip
-\033[1;91m▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
-\033[1;91m▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
-\033[1;91m▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
-\033[1;91m▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
-\033[1;91m░░░░▄▄███▄▄░░░░░█████░
+\033[1;91m-------------------------------------
+\033[1;91m-----Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman
+\033[1;91m-----Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak
+\033[1;91m-----Agar Kemungkinan MendapatKan Akun Semakin Besar
+\033[1;91m-------------------------------------
+\033[1;94m▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
+\033[1;94m▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
+\033[1;94m▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
+\033[1;94m▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
+\033[1;94m░░░░▄▄███▄▄░░░░░█████░
 
-os.system("clear")
-print  """
-jalan('\033[1;94m-------')
-jalan("\033[1;94m-----Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman")
-jalan('\033[1;94m-----Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak')
-jalan("\033[1;94m-----Agar Kemungkinan MendapatKan Akun Semakin Besar")
-jalan('\033[1;94m-------')
-print "
+
+               """
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -129,7 +128,7 @@ print  """
 \033[1;97m-----------------------\|/
 \033[1;94m------------------------V
 
-                                                     
+                                                              """
 CorrectUsername = "ZxXx-Angel"
 CorrectPassword = "Zero"
 
