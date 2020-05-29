@@ -66,6 +66,7 @@ jalan("\033[1;94m-----Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman")
 jalan('\033[1;94m-----Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak')
 jalan("\033[1;94m-----Agar Kemungkinan MendapatKan Akun Semakin Besar")
 jalan('\033[1;94m-------')
+print "
 
 def tik():
 	titik = ['.   ','..  ','... ']
