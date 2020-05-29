@@ -65,12 +65,7 @@ jalan('\033[1;91m-------')
 jalan("\033[1;91m-----Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman")
 jalan('\033[1;91m-----Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak')
 jalan("\033[1;91m-----Agar Kemungkinan MendapatKan Akun Semakin Besar")
-jalan('\033[1;91m--------')
-
-
-
-
-                  """
+jalan('\033[1;91m-------')
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -133,7 +128,7 @@ print  """
 \033[1;97m-----------------------\|/
 \033[1;94m------------------------V
 
-                                                                                            """
+                                                     
 CorrectUsername = "ZxXx-Angel"
 CorrectPassword = "Zero"
 
