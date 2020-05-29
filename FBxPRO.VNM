@@ -54,15 +54,15 @@ logo = """
 \033[1;92mZero & ZxXx-Angel
 \033[1;91mFollow @zero_xvip
 \033[1;91m
-\033[1;91m        (Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman)
-\033[1;91m    (Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak)
-\033[1;91m            (Agar Kemungkinan MendapatKan Akun Semakin Besar)
-\033[1;91m
-\033[1;94m▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
-\033[1;94m▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
-\033[1;94m▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
-\033[1;94m▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
-\033[1;94m░░░░▄▄███▄▄░░░░░█████░
+jalan('\033[1;91m-----Saya SaranKan Pilih Tools NO2/Hack FB Teman Dari Teman')
+jalan('\033[1;91m-----Kemudian Ambil ID FB Siapapun Yang Memiliki Teman Paling Banyak')
+jalan('\033[1;91m-----Agar Kemungkinan MendapatKan Akun Semakin Besar')
+\033[1;91m  
+jalan('\033[1;94m▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░')
+jalan('\033[1;94m▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░')
+jalan('\033[1;94m▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░')
+jalan('\033[1;94m▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░')
+jalan('\033[1;94m░░░░▄▄███▄▄░░░░░█████░')
 
 
 
@@ -235,8 +235,8 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print "          \033[1;33;40m     [1] \033[1;33;40m  Start Hack?"	
-	print "          \033[1;33;40m     [2] \033[1;33;40m  Update Script"																														
+	print "          \033[1;33;40m     [1] \033[1;33;40m  Mulai Hack?"	
+	print "          \033[1;33;40m     [2] \033[1;33;40m  Update Script (Tunggu Kabar)"																														
 	print "          \033[1;33;40m     [0] \033[1;33;40m  Logout"
 	pilih()
 
@@ -274,10 +274,10 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "          \x1b[1;33;40m [1] \033[1;33;40m     ID From A Friend"
-	print "          \x1b[1;33;40m [2] \033[1;33;40m     Friend Id Of A Friend (DISARANKAN)"
-	print "          \x1b[1;33;40m [3] \033[1;33;40m     Target ID"
-	print "          \x1b[1;33;40m [4] \033[1;33;40m     Id Of File"
+	print "          \x1b[1;33;40m [1] \033[1;33;40m     HACK TEMAN"
+	print "          \x1b[1;33;40m [2] \033[1;33;40m     HACK TEMAN DARI TEMAN (DISARANKAN)"
+	print "          \x1b[1;33;40m [3] \033[1;33;40m     HACK TARGET+PASSWORD.TXT"
+	print "          \x1b[1;33;40m [4] \033[1;33;40m     HACK DARI FILE"
 	print "          \x1b[1;33;40m [0] \033[1;33;40m     Back"
 	pilih_super()
 
@@ -299,7 +299,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("          \033[1;96m[*] Enter ID (FB Siapapun Yang Memiliki Teman Paling Banyak): ")
+		idt = raw_input("          \033[1;96m[*] Enter ID (ID FB SIAPAPUN DENGAN TEMAN BANYAK): ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
