@@ -298,7 +298,7 @@ def pilih_super():
 		       raw_input("\n\033[1;92mBack")
 	               super()
 		print"\033[1;93mGetting ID"
-		r = requests.get("https://mbasic.facebook.com/search/top/?q="+idt+"&ref=content_filter&tsid=0.04226953503837394&source=typeahead")
+		r = requests.get(https://m.facebook.com/search/people/?q="+idt+)
 		z = json.loads(r.text)
 		for i in z['data']
 		        id.append(i['id']
