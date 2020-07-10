@@ -515,7 +515,7 @@ def yahoo():
 	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;93m clone_yahoo_masal"
 	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;93m clone_yahoo_grup"
 	print "\x1b[1;96m[\x1b[1;92m4\x1b[1;96m]\x1b[1;93m clone_yahoo_file"
-	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Kembali"
+	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m kembali"
 	clone()
        
 def clone():
@@ -530,7 +530,7 @@ def clone():
 		clone_dari_member_group()
 	elif embuh =="clone_yahoo_file":
 		clone_dari_file()
-	elif embuh =="0":
+	elif embuh =="kembali":
 		menu()
 	else:
 		print "\033[1;96m[!] \x1b[1;91mIsi yang benar"
